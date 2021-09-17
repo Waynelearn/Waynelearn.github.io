@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <!--h1>Hello World</h1-->
+        <h2>CatPhotoApp</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!--Embed a link-->
+            <p>Click here to view more <a href="https://catphotos.com" target="_blank">cat photos</a></p>
+            <a href="https://www.google.com/"><img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=49ed3252c0b2ffb49cf8b508892e452d" alt="A cute cat"></a>
+            <h3>Cat Lists</h3>
+            <div class="Lists">
+                <p>Things cats <em>love</em>:</p>
+                <!--List of things-->
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                </ul>
+                <!--Make sure the html file and the image is in the same folder/dir-->
+                <img src="cat.jpg" alt="cat">
+                <p>Things cat <strong>hate</strong></p>
+                <ol>
+                    <li>Me</li>
+                    <li>Other cats</li>
+                </ol>
+            </div>
+            <img src="cat.jpg" alt=cat>
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor </label><br>
+                <label for="outdoor"><input id="outdoor" type="radio"name="indoor-outdoor"> Outdoor </label><br>
+                <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Loving </label><br>
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality" checked> Lazy </label><br>
+                <input type="text" placeholder="cat photo URL" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>No Copyright</p></small>
+        </footer>
+    </body>
+</html>
