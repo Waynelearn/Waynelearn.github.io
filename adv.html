@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://dimuto.io/wp-content/uploads/2019/11/Google-Logo.png" type="image/x-icon">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles_adv.css">
+</head>
+
+<body>
+    <div id="top">
+        <div id="googlelogo">
+            <a href="index.html"><span id="logo"></span aria-hidden=true>
+            </a>
+        </div>
+    </div>
+
+    <div id="adv_search_txt">Advanced Search</div>
+    <div id="break"></div>
+
+    <form action="https://google.com/search">
+
+        <table>
+            <tr>
+                <td>Find pages with...</td>
+                <td></td>
+                <td>To do this in the search box.</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="as_q">all these words:</label>
+                </td>
+                <td>
+                    <input type="text" class="textinput" id="as_q" value="" name="as_q">
+                </td>
+                <td>
+                    Type the important words: tri-colour rat terrier
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="as_epq">this exact word or phrase: </label>
+                </td>
+                <td>
+                    <input type="text" class="textinput" id="as_epq" value="" name="as_epq">
+                </td>
+                <td>
+                    Put exact words in quotes: "rat terrier"
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="as_oq">any of this words: </label>
+                </td>
+                <td>
+                    <input type="text" class="textinput" id="field3" value="" name="as_oq">
+                </td>
+                <td>
+                    Type OR between all the words you want: miniature OR standard
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="as_eq">none of these words: </label>
+                </td>
+                <td>
+                    <input type="text" class="textinput" id="as_eq" value="" name="as_eq">
+                </td>
+                <td>
+                    Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div class="button_box">
+                        <input class="adv_buttons" type="submit" value="Advanced Search">
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </form>
+
+</body>
+
+</html>
